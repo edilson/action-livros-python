@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+psycopg2 = "*"
+django = "*"
+djangorestframework = "*"
+drf-nested-routers = "*"
+django-cors-headers = "*"
+djangorestframework-simplejwt = "*"
+
+[requires]
+python_version = "3.6"
